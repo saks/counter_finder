@@ -1,8 +1,9 @@
 {
-  "name": "mernik_monitor",
-  "fullName": "mernik_monitor",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
-  "version": "0.1"
+    "name": "mernik_monitor",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "saksmlz@gmail.com",
+    "version": "0.2",
+    "fullName": "mernik_monitor",
+    "id": "jid0-xzryKn1Or7xZcMrTz04adEb0auw",
+    "description": "a basic add-on"
 }
