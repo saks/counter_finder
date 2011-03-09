@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Counters</title>
+    <style type="text/css" media="all">
+
+      div, li, ul, span {
+        padding : 0;
+        margin  : 0;
+        color   : #FFF;
+      }
+
+
+      body {
+        font: 100% arial, helvetica, sans-serif;
+        background-color: #FFF;
+      }
+
+      div#counters {
+        border-radius    : 5px;
+        background-color : rgba(0, 0, 0, 0.8);
+        box-shadow       : 1px 1px 10px #000000;
+      }
+
+      div#counters > ul {
+        list-style-image : none;
+        padding          : 5px 0;
+      }
+
+      #counters .counter {
+        color       : #FFF;
+        cursor      : pointer;
+        display     : block;
+        line-height : 24px;
+        padding     : 4px 10px;
+        -moz-user-select : none;
+      }
+
+      #counters .counter.disabled {
+        color       : #999999 !important;
+        cursor      : default;
+      }
+
+      #counters .counter.disabled:hover {
+        text-shadow : none;
+      }
+
+      #counters .counter:hover {
+        color       : #FF6600;
+        text-shadow : 1px 1px 5px #FF9900;
+      }
+
+      .counter .icon {
+        padding             : 4px;
+        width               : 16px;
+        height              : 16px;
+        float               : left;
+        border              : 0 none;
+        display             : block;
+        background-color    : transparent;
+        background-repeat   : no-repeat;
+        background-position : center;
+      }
+
+      .counter .name {
+        padding-left : 10px;
+        font-size    : 16px;
+        font-weight  : normal;
+        font-family  : Arial, Helvetica, sans-serif;
+        color        : inherit;
+      }
+
+      .icon.gemius_logo  { background-image : url('gemius_counter_logo.png'  ) ; }
+      .icon.mernik_logo  { background-image : url('mernik_counter_logo.png'  ) ; }
+      .icon.google_logo  { background-image : url('google_counter_logo.png'  ) ; }
+      .icon.akavita_logo { background-image : url('akavita_counter_logo.png' ) ; }
+      .icon.allby_logo   { background-image : url('allby_counter_logo.png'   ) ; }
+      .icon.mailru_logo  { background-image : url('mailru_counter_logo.png'  ) ; }
+      .icon.hotlog_logo  { background-image : url('hotlog_counter_logo.png'  ) ; }
+      .icon.li_logo      { background-image : url('li_counter_logo.png'      ) ; }
+      .icon.rambler_logo { background-image : url('rambler_counter_logo.png' ) ; }
+      .icon.spylog_logo  { background-image : url('spylog_counter_logo.png'  ) ; }
+      .icon.zerokz_logo  { background-image : url('zerokz_counter_logo.png'  ) ; }
+
+</style>
+
+</head>
+
+<body>
+
+<div id="counters">
+  <ul>
+    <li data-counter-id="mernik" class="counter"><span class="icon"></span><span class="name">mernik</span></li>
+    <li data-counter-id="mernik" class="counter"><span class="icon"></span><span class="name">mernik</span></li>
+    <li data-counter-id="mernik" class="counter"><span class="icon"></span><span class="name">mernik</span></li>
+  </ul>
+</div>
+
+</body>
+</html>
