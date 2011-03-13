@@ -3,34 +3,35 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <title>Counters</title>
+    <title>counter_finder_counters_list</title>
     <style type="text/css" media="all">
 
-      body, div, li, ul, span {
+      div, li, ul, span {
         padding : 0;
         margin  : 0;
-        color   : #FFF;
+        color   : white;
       }
 
 
       body {
-        padding: 8px;
+        padding : 0;
+        margin  : 0;
         font: 100% arial, helvetica, sans-serif;
-        background-color: #FFF;
+        background-color: white;
       }
 
-      div#counters {
+      div#counter_finder_counters_list {
         border-radius    : 5px;
         background-color : rgba(0, 0, 0, 0.8);
         box-shadow       : 1px 1px 10px #000000;
       }
 
-      div#counters > ul {
+      div#counter_finder_counters_list > ul {
         list-style-image : none;
         padding          : 5px 0;
       }
 
-      #counters .counter {
+      #counter_finder_counters_list .counter {
         color       : #FFF;
         cursor      : pointer;
         display     : block;
@@ -39,21 +40,21 @@
         -moz-user-select : none;
       }
 
-      #counters .counter.disabled {
+      #counter_finder_counters_list .counter.disabled {
         color       : #999999 !important;
         cursor      : default;
       }
 
-      #counters .counter.disabled:hover {
+      #counter_finder_counters_list .counter.disabled:hover {
         text-shadow : none;
       }
 
-      #counters .counter:hover {
+      #counter_finder_counters_list .counter:hover {
         color       : #FF6600;
         text-shadow : 1px 1px 5px #FF9900;
       }
 
-      .counter .icon {
+      #counter_finder_counters_list .counter .icon {
         padding             : 4px;
         width               : 16px;
         height              : 16px;
@@ -65,7 +66,7 @@
         background-position : center;
       }
 
-      .counter .name {
+      #counter_finder_counters_list .counter .name {
         padding-left : 10px;
         font-size    : 16px;
         font-weight  : normal;
@@ -73,17 +74,17 @@
         color        : inherit;
       }
 
-      .icon.gemius_logo  { background-image : url('gemius_counter_logo.png'  ) ; }
-      .icon.mernik_logo  { background-image : url('mernik_counter_logo.png'  ) ; }
-      .icon.google_logo  { background-image : url('google_counter_logo.png'  ) ; }
-      .icon.akavita_logo { background-image : url('akavita_counter_logo.png' ) ; }
-      .icon.allby_logo   { background-image : url('allby_counter_logo.png'   ) ; }
-      .icon.mailru_logo  { background-image : url('mailru_counter_logo.png'  ) ; }
-      .icon.hotlog_logo  { background-image : url('hotlog_counter_logo.png'  ) ; }
-      .icon.li_logo      { background-image : url('li_counter_logo.png'      ) ; }
-      .icon.rambler_logo { background-image : url('rambler_counter_logo.png' ) ; }
-      .icon.spylog_logo  { background-image : url('spylog_counter_logo.png'  ) ; }
-      .icon.zerokz_logo  { background-image : url('zerokz_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.gemius_logo  { background-image : url('gemius_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.mernik_logo  { background-image : url('mernik_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.google_logo  { background-image : url('google_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.akavita_logo { background-image : url('akavita_counter_logo.png' ) ; }
+      #counter_finder_counters_list .icon.allby_logo   { background-image : url('allby_counter_logo.png'   ) ; }
+      #counter_finder_counters_list .icon.mailru_logo  { background-image : url('mailru_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.hotlog_logo  { background-image : url('hotlog_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.li_logo      { background-image : url('li_counter_logo.png'      ) ; }
+      #counter_finder_counters_list .icon.rambler_logo { background-image : url('rambler_counter_logo.png' ) ; }
+      #counter_finder_counters_list .icon.spylog_logo  { background-image : url('spylog_counter_logo.png'  ) ; }
+      #counter_finder_counters_list .icon.zerokz_logo  { background-image : url('zerokz_counter_logo.png'  ) ; }
 
 </style>
 
@@ -91,11 +92,8 @@
 
 <body>
 
-<div id="counters">
+<div id="counter_finder_counters_list">
   <ul>
-    <li data-counter-id="mernik" class="counter"><span class="icon"></span><span class="name">mernik</span></li>
-    <li data-counter-id="mernik" class="counter"><span class="icon"></span><span class="name">mernik</span></li>
-    <li data-counter-id="mernik" class="counter"><span class="icon"></span><span class="name">mernik</span></li>
   </ul>
 </div>
 

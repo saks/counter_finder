@@ -7,8 +7,19 @@ window.addEventListener('click', function(event) {
 	postMessage( counterNode.getAttribute('data-counter-url') );
 }, false);
 
-self.on( 'message', function( newHTML ) {
-	//console.log('message from panel: ', newHTML);
-	document.getElementById('counters').innerHTML = newHTML;
+
+const actions = {
+	updateCountersHTML: function( html ) {
+		document.getElementById('counter_finder_counters_list').innerHTML = html;
+	},
+
+};
+
+
+self.on( 'message', function( args ) {
+	var actionName = args[0], data = args[1];
+
+	//console.log('message from panel. actionName: ', actionName, ' , data: ', data);
+	actions[ actionName ]( data )
 });
 
